@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+medbrief_history.db
+debug_ocr_output/
+.git/
+.gitignore
+.pytest_cache/
+test*.py
+*.log

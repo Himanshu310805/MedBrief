@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.extract import router as extract_router
@@ -18,11 +19,15 @@ app = FastAPI(
 def on_startup():
     init_db()
 
-# Enable CORS for frontend development (Vite default port 5173)
-origins = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
-]
+# Enable CORS for frontend development & production deployment via ALLOWED_ORIGIN env var
+allowed_origin_env = os.getenv("ALLOWED_ORIGIN")
+if allowed_origin_env and allowed_origin_env.strip():
+    origins = [o.strip() for o in allowed_origin_env.split(",") if o.strip()]
+else:
+    origins = [
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ]
 
 app.add_middleware(
     CORSMiddleware,

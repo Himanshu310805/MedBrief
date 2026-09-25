@@ -1,0 +1,17 @@
+===================================================================
+MEDBRIEF SYNTHETIC MEDICAL REPORT (TEST DATA ONLY - NOT A REAL PATIENT)
+===================================================================
+
+PATIENT INFORMATION:
+Patient Name: Emma Davis (Synthetic)
+Age: 35 | Gender: Female | Date: 2026-09-17
+
+THYROID PROFILE:
+TEST NAME RESULT FLAG REFERENCE RANGE UNIT
+TSH 5.8 High 0.4 - 4.0 uIU/mL
+Free T3 2.1 Normal 2.0 - 4.4 pg/mL
+Free T4 0.9 Normal 0.8 - 1.8 ng/dL
+
+===================================================================
+Confidential Laboratory Report - For testing purposes only.
+===================================================================

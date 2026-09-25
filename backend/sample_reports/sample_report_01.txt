@@ -1,0 +1,39 @@
+===================================================================
+MEDBRIEF SYNTHETIC MEDICAL REPORT (TEST DATA ONLY - NOT A REAL PATIENT)
+===================================================================
+
+PATIENT INFORMATION:
+Patient Name: John Doe (Synthetic)
+Age: 54 | Gender: Male | DOB: 1970-05-15
+MRN: SYN-987654 | Date of Visit: 2026-09-10
+Attending Physician: Dr. Jane Smith, MD (Cardiology)
+
+CHIEF COMPLAINT:
+Patient reports shortness of breath on exertion and recurrent mild chest tightness over the past two weeks.
+
+CLINICAL HISTORY & PRESENT ILLNESS:
+The patient is a 54-year-old male with a history of essential hypertension and hyperlipidemia. He reports experiencing progressive exertional dyspnea when climbing stairs. Denies acute severe chest pain, radiation to jaw or arm, diaphoresis, nausea, or syncope.
+
+PHYSICAL EXAMINATION:
+- Vital Signs: BP 138/86 mmHg, HR 76 bpm, RR 18/min, Temp 98.4°F, SpO2 97% on room air.
+- Cardiovascular: Regular rate and rhythm. S1 and S2 present. No S3, S4, or murmurs.
+- Respiratory: Clear to auscultation bilaterally. No wheezes, rales, or rhonchi.
+- Extremities: No peripheral edema. Pulses intact 2+ bilaterally.
+
+DIAGNOSTIC WORKUP & LAB RESULTS:
+- Electrocardiogram (ECG): Normal sinus rhythm at 74 bpm. No acute ST-T wave changes.
+- Troponin I: < 0.01 ng/mL (Normal)
+- BNP: 45 pg/mL (Normal)
+- Lipid Panel: Total Cholesterol 215 mg/dL, LDL 135 mg/dL, HDL 42 mg/dL, Triglycerides 190 mg/dL.
+- Echocardiogram: Left ventricular ejection fraction (LVEF) 60%. Mild left ventricular hypertrophy. No regional wall motion abnormalities.
+
+IMPRESSION / DIAGNOSIS:
+1. Exertional dyspnea secondary to mild hypertensive heart disease and hyperlipidemia.
+2. Acute coronary syndrome ruled out based on serial cardiac biomarkers and ECG.
+
+TREATMENT PLAN & RECOMMENDATIONS:
+1. Continue Lisinopril 10 mg orally once daily for blood pressure management.
+2. Initiate Atorvastatin 20 mg orally once daily for hyperlipidemia.
+3. Schedule an outpatient treadmill stress test within 2 weeks.
+4. Dietary modifications: Low-sodium, heart-healthy Mediterranean diet.
+5. Follow-up clinic appointment in 4 weeks or sooner if symptoms worsen.

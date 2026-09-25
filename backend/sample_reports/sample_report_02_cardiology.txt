@@ -1,0 +1,30 @@
+PATIENT INFORMATION:
+Patient Name: Maria Rodriguez (Synthetic)
+Age: 62 | Gender: Female | Date of Visit: 2026-08-20
+MRN: SYN-44512 | Attending Physician: Dr. Robert Vance, MD
+
+CHIEF COMPLAINT:
+Severe substernal chest pain radiating to left arm and shortness of breath.
+
+CLINICAL HISTORY & PRESENT ILLNESS:
+The patient presented to the emergency department with sudden onset substernal chest pressure that started 2 hours prior to arrival. History of type 2 diabetes mellitus and hypertension.
+
+DIAGNOSTIC WORKUP & VITAL SIGNS:
+- Vital Signs: BP 155/95 mmHg, HR 92 bpm, SpO2 96% on 2L oxygen via nasal cannula.
+- Electrocardiogram (ECG): ST-elevation in leads II, III, and aVF indicative of Acute Inferior Myocardial Infarction.
+- Serum Troponin I: 5.4 ng/mL (Elevated).
+
+IMPRESSION / DIAGNOSIS:
+1. Acute Inferior Myocardial Infarction (STEMI).
+2. Essential Hypertension.
+3. Type 2 Diabetes Mellitus.
+
+TREATMENT & PROCEDURES PERFORMED:
+1. Administered Aspirin 325 mg orally and sublingual Nitroglycerin in ER.
+2. Transferred urgently to Cardiac Catheterization Lab for primary Percutaneous Coronary Intervention (PCI).
+3. Successfully placed a drug-eluting stent (DES) in the Right Coronary Artery (RCA).
+
+MEDICATIONS & FOLLOW-UP DIRECTIVES:
+1. Dual Antiplatelet Therapy: Aspirin 81 mg daily and Clopidogrel 75 mg daily for 12 months.
+2. Atorvastatin 80 mg daily for lipid optimization.
+3. Schedule follow-up appointment in Cardiology Clinic in 14 days.

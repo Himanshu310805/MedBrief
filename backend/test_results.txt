@@ -1,0 +1,15 @@
+Loading Abstractive Summarization Transformer Model 'sshleifer/distilbart-cnn-6-6' on CPU...
+Successfully loaded model 'sshleifer/distilbart-cnn-6-6' in 6.14s.
+=== STAGE 5 TEST RESULTS ===
+Abstractive Processing Time: 7.45 seconds
+Model Used: sshleifer/distilbart-cnn-6-6
+Input Word Count: 305
+Summary Word Count: 40
+Chunks Processed: 1
+Warning: None
+
+--- ABSTRACTIVE SUMMARY ---
+The patient is a 54-year-old male with a history of essential hypertension and hyperlipidemia . He reports experiencing progressive exertional dyspnea when climbing stairs . Denies acute severe chest pain, radiation to jaw or arm, diaphoresis, nausea or syncope .
+
+--- EXTRACTIVE SUMMARY (STAGE 4) ---
+Patient reports shortness of breath on exertion and recurrent mild chest tightness over the past two weeks. The patient is a 54-year-old male with a history of essential hypertension and hyperlipidemia. Electrocardiogram (ECG): Normal sinus rhythm at 74 bpm. Exertional dyspnea secondary to mild hypertensive heart disease and hyperlipidemia.

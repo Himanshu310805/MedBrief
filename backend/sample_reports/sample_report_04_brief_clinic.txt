@@ -1,0 +1,19 @@
+URGENT CARE CLINIC NOTE:
+Patient: Sarah Miller | Age: 29 | Gender: Female | Date: 2026-09-14
+Provider: Dr. Mark Taylor, PA-C
+
+SUBJECTIVE:
+Patient presents with a 4-day history of dry cough, low-grade fever (100.2°F), and mild nasal congestion. Denies shortness of breath, chest pain, or sore throat.
+
+OBJECTIVE:
+- Temp: 99.8°F, BP: 118/74 mmHg, Pulse: 80 bpm, SpO2: 98%.
+- HEENT: Mild pharyngeal erythema, no exudates.
+- Lungs: Clear to auscultation bilaterally. No wheezing or crackles.
+
+DIAGNOSIS:
+Acute Viral Bronchitis.
+
+PLAN & INSTRUCTIONS:
+1. Support care: Increase fluid intake, rest, and over-the-counter Acetaminophen 500 mg as needed for fever.
+2. Dextromethorphan syrup 10 mL every 6 hours for cough.
+3. Return to clinic if fever persists beyond 5 days or if breathing difficulties develop.

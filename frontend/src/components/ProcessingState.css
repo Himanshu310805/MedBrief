@@ -1,0 +1,164 @@
+.processing-container {
+  max-width: 680px;
+  margin: 3rem auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+.processing-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.processing-icon-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--primary-blue-light);
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border: 1px solid var(--primary-blue-border);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.9; }
+  50% { transform: scale(1.08); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.9; }
+}
+
+.pulse-icon {
+  animation: pulse 1.8s infinite ease-in-out;
+}
+
+.processing-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.35rem;
+}
+
+.processing-subtitle {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+}
+
+/* Progress Bar */
+.progress-bar-wrapper {
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.progress-bar-track {
+  height: 10px;
+  width: 100%;
+  background-color: var(--bg-card-alt);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-blue) 0%, #3b82f6 100%);
+  border-radius: var(--radius-full);
+  transition: width 0.3s ease;
+}
+
+.progress-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.current-status-text {
+  font-weight: 600;
+  color: var(--primary-blue);
+}
+
+.progress-percentage {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Pipeline Step Breakdown Grid */
+.pipeline-steps-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.65rem 1rem;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-card-alt);
+  border: 1px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.step-item.current {
+  background-color: var(--primary-blue-light);
+  border-color: var(--primary-blue-border);
+}
+
+.step-item.done {
+  background-color: var(--accent-green-light);
+  border-color: var(--accent-green-border);
+}
+
+.step-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green-check {
+  color: var(--accent-green);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.blue-spinner {
+  color: var(--primary-blue);
+  animation: spin 1.2s linear infinite;
+}
+
+.step-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.step-name {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.step-item.current .step-name {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.step-item.done .step-name {
+  color: var(--text-primary);
+  font-weight: 500;
+}

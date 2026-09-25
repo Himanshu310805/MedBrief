@@ -1,0 +1,18 @@
+===================================================================
+MEDBRIEF SYNTHETIC MEDICAL REPORT (TEST DATA ONLY - NOT A REAL PATIENT)
+===================================================================
+
+PATIENT INFORMATION:
+Patient Name: David Miller (Synthetic)
+Age: 50 | Gender: Male | Date: 2026-09-15
+
+LIPID PANEL:
+TEST NAME RESULT FLAG REFERENCE RANGE UNIT
+Total Cholesterol 240 High < 200 mg/dL
+Triglycerides 210 Elevated < 150 mg/dL
+HDL Cholesterol 38 Low > 40 mg/dL
+LDL Cholesterol 160 High < 100 mg/dL
+
+===================================================================
+Confidential Laboratory Report - For testing purposes only.
+===================================================================

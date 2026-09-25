@@ -1,0 +1,21 @@
+===================================================================
+MEDBRIEF SYNTHETIC MEDICAL REPORT (TEST DATA ONLY - NOT A REAL PATIENT)
+===================================================================
+
+PATIENT INFORMATION:
+Patient Name: Robert Taylor (Synthetic)
+Age: 58 | Gender: Male | Date: 2026-09-19
+
+LIVER FUNCTION TEST (LFT):
+TEST NAME RESULT FLAG REFERENCE RANGE UNIT
+Total Bilirubin 1.8 Elevated 0.2 - 1.2 mg/dL
+Direct Bilirubin 0.6 High 0.1 - 0.3 mg/dL
+SGOT (AST) 68 High 5 - 40 U/L
+SGPT (ALT) 75 High 7 - 56 U/L
+Alkaline Phosphatase 115 Normal 44 - 147 U/L
+Serum Albumin 4.1 Normal 3.5 - 5.5 g/dL
+
+===================================================================
+Confidential Laboratory Report - For testing purposes only.
+Electronically signed by Dr. Susan Clark, MD.
+===================================================================

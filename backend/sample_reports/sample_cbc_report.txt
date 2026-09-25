@@ -1,0 +1,21 @@
+===================================================================
+MEDBRIEF SYNTHETIC MEDICAL REPORT (TEST DATA ONLY - NOT A REAL PATIENT)
+===================================================================
+
+PATIENT INFORMATION:
+Patient Name: Alice Walker (Synthetic)
+Age: 42 | Gender: Female | Date: 2026-09-18
+
+COMPLETE BLOOD COUNT (CBC):
+TEST NAME RESULT FLAG REFERENCE RANGE UNIT
+Hemoglobin 10.4 Low 12.0 - 15.0 g/dL
+RBC Count 3.95 Low 4.0 - 5.2 mil/uL
+WBC Count 6.5 Normal 4.0 - 11.0 10^3/uL
+Platelet Count 240 Normal 150 - 450 10^3/uL
+Hematocrit 31.2 Low 36.0 - 46.0 %
+MCV 79.0 Low 80.0 - 100.0 fl
+
+===================================================================
+Confidential Laboratory Report - For testing purposes only.
+Electronically signed by Dr. Mark Evans, MD.
+===================================================================

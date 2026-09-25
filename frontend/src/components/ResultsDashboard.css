@@ -1,0 +1,440 @@
+.results-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Dashboard Top Action Header */
+.dashboard-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.top-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.doc-badge-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background-color: var(--primary-blue-light);
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.report-patient-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.report-meta-pills {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+.top-bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.download-btn {
+  padding: 0.55rem 1.25rem;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reset-btn {
+  padding: 0.55rem 1.25rem;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* 1. Stat Tile Grid (Reference Style: "Live Body Metrics") */
+.stats-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.stat-tile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.15rem 1.25rem;
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-card);
+}
+
+.stat-icon-wrapper {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-icon-wrapper.blue {
+  background-color: var(--primary-blue-light);
+  color: var(--primary-blue);
+}
+
+.stat-icon-wrapper.green {
+  background-color: var(--accent-green-light);
+  color: var(--accent-green);
+}
+
+.stat-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-name {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.stat-number {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.stat-number.green-text {
+  color: var(--accent-green);
+}
+
+/* 2. Main 2-Column Layout Grid */
+.dashboard-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.card-section-header h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.header-icon {
+  color: var(--text-secondary);
+}
+
+.header-icon.blue {
+  color: var(--primary-blue);
+}
+
+.model-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  background-color: var(--primary-blue-light);
+  color: var(--primary-blue);
+  border: 1px solid var(--primary-blue-border);
+}
+
+.model-tag.gray {
+  background-color: var(--bg-card-alt);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+}
+
+.optional-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  background-color: var(--warning-bg);
+  color: var(--warning-amber);
+  border: 1px solid var(--warning-border);
+}
+
+/* Left Column: Medical Information Rows */
+.medical-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.medical-info-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.85rem;
+  background-color: var(--bg-card-alt);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.info-row-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-label-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-icon {
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+}
+
+.info-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.info-row-content {
+  font-size: 0.9rem;
+  color: var(--text-body);
+  line-height: 1.5;
+  padding-left: 1.6rem;
+}
+
+.info-row-content.muted {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Structured Lab Results Table */
+.lab-table-container {
+  max-height: 380px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  margin-top: 0.35rem;
+  background-color: #ffffff;
+}
+
+.lab-findings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.lab-findings-table th {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-card-alt);
+  color: var(--text-secondary);
+  font-weight: 700;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 2px solid var(--border-color);
+  z-index: 1;
+}
+
+.lab-findings-table td {
+  padding: 0.55rem 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+}
+
+.lab-findings-table tr:hover {
+  background-color: var(--primary-blue-light);
+}
+
+.test-name-cell {
+  font-weight: 600;
+}
+
+.result-cell {
+  font-weight: 700;
+}
+
+.flag-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius-full);
+}
+
+.flag-badge.high {
+  background-color: #fee2e2;
+  color: #dc2626;
+  border: 1px solid #fca5a5;
+}
+
+.flag-badge.low {
+  background-color: #e0f2fe;
+  color: #0284c7;
+  border: 1px solid #7dd3fc;
+}
+
+.flag-badge.normal {
+  background-color: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+/* Right Column: Summaries */
+.highlight-card {
+  border-color: var(--primary-blue-border);
+  background: linear-gradient(180deg, #ffffff 0%, var(--primary-blue-light) 100%);
+}
+
+.summary-text-body {
+  font-size: 0.95rem;
+  color: var(--text-body);
+  line-height: 1.7;
+}
+
+/* ROUGE Table */
+.evaluation-card {
+  /* gap handles spacing */
+}
+
+.rouge-table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.rouge-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.rouge-table th {
+  background-color: var(--bg-card-alt);
+  color: var(--text-secondary);
+  font-weight: 600;
+  padding: 0.6rem 0.85rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.rouge-table td {
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+}
+
+.comparison-note-box {
+  background-color: var(--primary-blue-light);
+  border: 1px solid var(--primary-blue-border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Collapsible Original Text Card */
+.collapsible-card {
+  padding: 1.25rem 1.5rem;
+}
+
+.collapsible-toggle-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.collapsible-toggle-btn:hover {
+  color: var(--primary-blue);
+}
+
+.toggle-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--primary-blue);
+}
+
+.collapsible-content {
+  margin-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 1rem;
+}
+
+.original-text-block {
+  margin: 0;
+  padding: 1.25rem;
+  background-color: var(--bg-card-alt);
+  border-radius: var(--radius-md);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--text-body);
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+}
+
+@media (max-width: 900px) {
+  .dashboard-main-grid {
+    grid-template-columns: 1fr;
+  }
+}

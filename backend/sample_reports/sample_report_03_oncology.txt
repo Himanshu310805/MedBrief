@@ -1,0 +1,25 @@
+PATIENT CLINICAL SUMMARY:
+Patient Name: David Chen (Synthetic)
+Age: 48 | Gender: Male | DOB: 1978-11-03
+MRN: SYN-881204 | Date: 2026-09-02
+Specialty: Medical Oncology | Physician: Dr. Elena Rostova, MD
+
+REASON FOR CONSULTATION:
+3-month post-chemotherapy follow-up evaluation for Stage II Colorectal Cancer.
+
+CURRENT SYMPTOMS:
+Patient reports mild fatigue (Grade 1), returning appetite, and resolution of peripheral neuropathy. Denies abdominal pain, nausea, vomiting, or weight loss.
+
+LABORATORY FINDINGS & IMAGING:
+- Complete Blood Count (CBC): WBC 5.8 x10^3/uL, Hemoglobin 13.5 g/dL, Platelets 210 x10^3/uL (All within normal limits).
+- Carcinoembryonic Antigen (CEA): 1.8 ng/mL (Normal baseline < 3.0 ng/mL).
+- Comprehensive Metabolic Panel (CMP): Normal renal and liver function tests.
+- CT Scan Chest/Abdomen/Pelvis: No evidence of recurrent disease or distant metastasis.
+
+ASSESSMENT:
+Stage II Colorectal Cancer, currently in complete clinical remission post-adjuvant FOLFOX chemotherapy.
+
+PLAN & FOLLOW-UP INSTRUCTIONS:
+1. Continue routine daily oral Multivitamin.
+2. Schedule next surveillance CEA test and outpatient oncology follow-up appointment in 3 months.
+3. Repeat PET/CT scan recommended in 6 months.

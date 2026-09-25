@@ -1,0 +1,49 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Loading Abstractive Summarization Transformer Model 'sshleifer/distilbart-cnn-6-6' on CPU...
+Successfully loaded model 'sshleifer/distilbart-cnn-6-6' in 4.31s.
+=== TESTING POST /api/analyze-full ===
+HTTP Status Code: 200
+Total Client Execution Time: 7.4543s
+
+=== FULL STRUCTURED SUMMARY RESPONSE ===
+{
+  "success": true,
+  "patient_information": {
+    "patient_name": "John Doe (Synthetic)",
+    "age": "54",
+    "gender": "Male",
+    "report_date": "2026-09-10"
+  },
+  "symptoms": {
+    "content": "Chest pain, Chest tightness, Diaphoresis, Dyspnea, Edema, Exertional dyspnea, Nausea, Peripheral edema, Rales, Rhonchi, Shortness of breath, Syncope",
+    "verified": true
+  },
+  "diagnosis_conditions": {
+    "content": "Acute coronary syndrome, Essential hypertension, Hyperlipidemia, Hypertension, Hypertensive heart disease, Hypertrophy, Left ventricular hypertrophy",
+    "verified": true
+  },
+  "medications": {
+    "content": "Atorvastatin 20 mg, Lisinopril 10 mg",
+    "verified": true
+  },
+  "lab_findings": {
+    "content": "BNP: 45 pg/mL, HDL 42 mg/dL, LDL 135 mg/dL, SpO2 97, Total Cholesterol 215 mg/dL, Triglycerides 190 mg/dL, Troponin I: < 0.01 ng/mL, blood pressure 138, heart rate 76",
+    "verified": true
+  },
+  "procedures": {
+    "content": "Auscultation, Echocardiogram, Electrocardiogram, Stress test, Treadmill stress test",
+    "verified": true
+  },
+  "other_observations": {
+    "content": "138/86, Gender, Initiate Atorvastatin, Jane Smith, John Doe, Lisinopril, Mediterranean, SYN-987654",
+    "verified": true
+  },
+  "follow_up": {
+    "content": "Schedule an outpatient treadmill stress test within 2 weeks. Follow-up clinic appointment in 4 weeks or sooner if symptoms worsen.",
+    "verified": true
+  },
+  "extractive_summary_text": "Patient reports shortness of breath on exertion and recurrent mild chest tightness over the past two weeks. The patient is a 54-year-old male with a history of essential hypertension and hyperlipidemia. Electrocardiogram (ECG): Normal sinus rhythm at 74 bpm. Exertional dyspnea secondary to mild hypertensive heart disease and hyperlipidemia. Initiate Atorvastatin 20 mg orally once daily for hyperlipidemia.",
+  "abstractive_summary_text": "The patient is a 54-year-old male with a history of essential hypertension and hyperlipidemia . He reports experiencing progressive exertional dyspnea when climbing stairs . Denies acute severe chest pain, radiation to jaw or arm, diaphoresis, nausea or syncope ."
+}
+
+ALL STAGE 6 VERIFICATION ASSERTS PASSED PERFECTLY!

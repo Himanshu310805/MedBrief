@@ -1,0 +1,53 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Loading Abstractive Summarization Transformer Model 'sshleifer/distilbart-cnn-6-6' on CPU...
+Successfully loaded model 'sshleifer/distilbart-cnn-6-6' in 4.82s.
+=== STEP 1: Calling POST /api/analyze-full to get generated summaries ===
+Extractive Summary: Patient reports shortness of breath on exertion and recurrent mild chest tightness over the past two weeks. The patient is a 54-year-old male with a history of essential hypertension and hyperlipidemia. Electrocardiogram (ECG): Normal sinus rhythm at 74 bpm. Exertional dyspnea secondary to mild hypertensive heart disease and hyperlipidemia. Initiate Atorvastatin 20 mg orally once daily for hyperlipidemia.
+
+Abstractive Summary: The patient is a 54-year-old male with a history of essential hypertension and hyperlipidemia . He reports experiencing progressive exertional dyspnea when climbing stairs . Denies acute severe chest pain, radiation to jaw or arm, diaphoresis, nausea or syncope .
+
+Reference Summary: A 54-year-old male with a history of essential hypertension and hyperlipidemia presented with progressive exertional dyspnea and mild chest tightness over two weeks. Cardiac biomarkers, ECG, and echocardiogram were within normal limits, successfully ruling out acute coronary syndrome. Diagnosed with exertional dyspnea secondary to hypertensive heart disease, he was prescribed Lisinopril 10 mg and Atorvastatin 20 mg daily, with an outpatient treadmill stress test and follow-up appointment scheduled in 4 weeks.
+
+
+=== STEP 2: Calling POST /api/evaluate ===
+=== ROUGE EVALUATION RESPONSE ===
+{
+  "success": true,
+  "extractive_scores": {
+    "rouge1": {
+      "precision": 0.5833,
+      "recall": 0.473,
+      "fmeasure": 0.5224
+    },
+    "rouge2": {
+      "precision": 0.3898,
+      "recall": 0.3151,
+      "fmeasure": 0.3485
+    },
+    "rougeL": {
+      "precision": 0.45,
+      "recall": 0.3649,
+      "fmeasure": 0.403
+    }
+  },
+  "abstractive_scores": {
+    "rouge1": {
+      "precision": 0.5128,
+      "recall": 0.2703,
+      "fmeasure": 0.354
+    },
+    "rouge2": {
+      "precision": 0.3684,
+      "recall": 0.1918,
+      "fmeasure": 0.2523
+    },
+    "rougeL": {
+      "precision": 0.4615,
+      "recall": 0.2432,
+      "fmeasure": 0.3186
+    }
+  },
+  "comparison_note": "Extractive summary achieved a higher ROUGE-1 F1-score (0.5224 vs 0.3540) and recall (0.4730 vs 0.2703) compared to the abstractive summary. This reflects ROUGE's expected structural bias toward verbatim source sentence overlap."
+}
+
+ALL STAGE 7 ROUGE EVALUATION TESTS PASSED PERFECTLY!
